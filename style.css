@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+}
+header {
+    background: #FFF8F3;
+margin: 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 130px;
+    
+}
+
+h2.title {
+    font-weight: 800;
+    font-size: 35px;
+    color: #181818;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+    color: #474747;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+
+}
+img {
+    position: right bottom;
+}
+
+
+
+h3.banner-sub-title {
+    font-weight: 600;
+    font-size: 35px;
+    color: #474747;
+}
+
+h1.banner-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding: 15px 0;
+}
+
+p.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    text-align: left;
+}
+
+
+button.btn-second {
+    width: 150px;
+    height: 54px;
+    background-color: #FD6E0A;
+    border: navajowhite;
+}
+/*about me*/
+section.about-me {margin: 130px 130px;}
+
+h2.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+}
+
+p {
+    text-align: center;
+    color: #757575;
+}
+
+.developer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+section.about-me {
+    background: #FFF8F3;
+    padding: 90px 100px;
+}
+/*what i do*/
+p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+}
+
+section.what-i-do {
+    margin: 50px 120px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center  
+}
+/* my resume*/
+.resume-container{
+    display: flex;
+    gap: 50px;
+    margin:70px 150px;
+}
+.btn-primary {
+    font-size: 20px;
+    margin: 20px 500px;
+    padding: 15px 55px;
+    position: relative;
+
+}
+a{
+    color:whitesmoke;
+    text-decoration: none;
+    background-color: #FD6E0A;
+    padding: 10px 20px;
+    margin-bottom: 15px 50px ;
+}
+a:hover{
+    color: yellow;
+    background-color: skyblue;
+}
+
+/*footer area*/
+
+
+
+.footer-area {
+    background: #FFF8F3;
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.footer-form input[type="email"], input[type="text"], textarea{
+    width: 100%;
+    margin: 8px 0;
+    border: none;
+    padding: 10px;
+}
+button {
+    margin-top: 15px;
+    background: #FD6E0A;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.cta{
+    
+    text-align: center;
+    padding-bottom: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+input[type="submit"] {
+    background: #FD6E0A;
+    border: none;
+    padding: 15px 30px;
+    color: #fff;
+    margin-top: 20px;
+}
+/* media quaries */
+@media (max-width:767.98px){
+    .footer-area, .resume-container, .skills, .developer-info, .banner, ul, nav {
+        flex-direction: column;
+    }
+    header {
+        background: #FFF8F3;
+    }
+    
+}
+
+
